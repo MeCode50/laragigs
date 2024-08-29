@@ -17,6 +17,7 @@ Route::get('/', function () {
     return view('listings', [
         'heading' => 'Latest listings',
         'listings' => [
+            [
             'id' =>1,
             'title' => 'Listing One',
             'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus maximus eros quis commodo scelerisque. Morbi eget ex
@@ -33,5 +34,6 @@ Route::get('/', function () {
              Sed efficitur finibus odio, ac efficitur pede fermentum vel. Vivamus vel augue non odio efficitur efficitur. Donec vel magna in massa fermentum efficitur. 
              Sed efficitur finibus odio, ac efficitur pede fermentum vel. Vivamus vel augue non odio efficitur efficitur.'
         ]
+            ]
     ]);
 });
